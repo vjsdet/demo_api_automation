@@ -1,0 +1,24 @@
+{
+  "name": "demo_api_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:execute": "npx cypress run && node cucumber-html-report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.12.0",
+    "cypress": "12.14.0",
+    "cypress-cucumber-preprocessor": "4.3.1",
+    "multiple-cucumber-html-reporter": "^3.6.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/step_definitions",
+    "cucumberJson": {
+      "generate": true
+    }
+  }
+}

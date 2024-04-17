@@ -1,0 +1,78 @@
+[
+  {
+    "description": "    I want to test application health",
+    "keyword": "Feature",
+    "name": "Health check",
+    "line": 1,
+    "id": "health-check",
+    "tags": [],
+    "uri": "health.feature",
+    "elements": [
+      {
+        "id": "health-check;application-health-check",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Application health check",
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I set \"ping\" api endpoint",
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I set \"GET\" api method",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I set \"application/json\" api content type",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I call the api endpoint",
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I receive valid status code 201",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

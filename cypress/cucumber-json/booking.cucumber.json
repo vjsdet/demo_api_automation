@@ -1,0 +1,98 @@
+[
+  {
+    "description": "    I want to test booking feature",
+    "keyword": "Feature",
+    "name": "Booking feature",
+    "line": 1,
+    "id": "booking-feature",
+    "tags": [],
+    "uri": "booking.feature",
+    "elements": [
+      {
+        "id": "booking-feature;get-all-booking-ids",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Get all booking ids",
+        "tags": [
+          {
+            "name": "@functional",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I set \"booking\" api endpoint",
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I set \"GET\" api method",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I set \"application/json\" api content type",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I call the api endpoint",
+            "result": {
+              "status": "passed",
+              "duration": 594000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I receive valid status code 200",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I receive valid \"booking/bookings.json\" response schema",
+            "result": {
+              "status": "passed",
+              "duration": 69000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I receive valid content type \"application/json\"",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

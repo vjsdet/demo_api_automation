@@ -1,0 +1,22 @@
+https://restful-booker.herokuapp.com/apidoc/index.html#api-Auth
+
+Exercise:
+
+Write Test cases and organize them into test suites (use gherkin language)
+Functional test cases
+Smoke test cases
+Happy path test cases
+Test suite: case prioritization and risks
+
+Automated Testing of all the flows using Postman or any other preferred tools.
+
+Bugs and defect identification
+risk analysis of each of these bugs
+Prioritization based on risk
+
+Final Report
+Show your test planning.
+Generate a comprehensive test report covering all test results.
+Describe in short, what other testing methodologies you’d undertake outside the ones mentioned here.
+Automation scripts, postman collection or any other resources that are relevant to be attached.
+Any Screenshots/recordings to be attached.
