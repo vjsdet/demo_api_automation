@@ -1,5 +1,3 @@
-This repo provides Cypress/Cucumber integration.
-
 Install Node.js from below URL.
 https://nodejs.org/en/download/
 
